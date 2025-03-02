@@ -1,4 +1,4 @@
-# 🎈 Blank app template
+# 🎈 Amen translator 
 
 A simple Streamlit app template for you to modify!
 
