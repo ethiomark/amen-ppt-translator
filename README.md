@@ -16,3 +16,26 @@ A simple Streamlit app template that translates your PowerPoint slides into Amha
 1. **Install Requirements**  
    ```bash
    pip install -r requirements.txt
+
+2. Run the App
+
+streamlit run streamlit_app.py
+
+
+3. Open the local URL provided by Streamlit (usually http://localhost:8501).
+
+
+4. Upload your PowerPoint, then download the automatically translated output.
+
+
+
+
+---
+
+Feel free to fork or clone this repository and modify the code as you wish!
+
+
+---
+
+Happy translating!
+
