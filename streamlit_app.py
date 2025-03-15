@@ -3,7 +3,7 @@ from pptx import Presentation
 from deep_translator import GoogleTranslator
 import io
 
-st.title("የፓወር ፖይንት መተርጎሚያ")
+st.title("አሜን የፓወር ፖይንት መተርጎሚያ")
 
 def translate_text(text, dest_language):
     """Translate text using Deep Translator."""
