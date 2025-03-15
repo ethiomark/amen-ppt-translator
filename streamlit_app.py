@@ -3,7 +3,7 @@ from pptx import Presentation
 from deep_translator import GoogleTranslator
 import io
 
-st.title("PowerPoint Translator")
+st.title("የፓወር ፖይንት መተርጎሚያ")
 
 def translate_text(text, dest_language):
     """Translate text using Deep Translator."""
@@ -36,7 +36,7 @@ def process_pptx_bytes(in_bytes):
     return out_bytes
 
 # Streamlit UI
-uploaded_file = st.file_uploader("Upload a PowerPoint file (.pptx)", type=["pptx"])
+uploaded_file = st.file_uploader("የፓወር ፖይንት ፋይልዎን ይስቀሉ (.pptx)", type=["pptx"])
 if uploaded_file is not None:
     # Convert the uploaded file to bytes
     file_bytes = uploaded_file.read()
@@ -46,8 +46,8 @@ if uploaded_file is not None:
 
     # Download button
     st.download_button(
-        label="Download Translated PPTX",
+        label="የተተረጎመውን ፋይል ያውርዱ",
         data=translated_pptx_bytes,
-        file_name="translated_output.pptx",
+        file_name="የተተረጎመው_ፋይል.pptx",
         mime="application/vnd.openxmlformats-officedocument.presentationml.presentation"
     )
